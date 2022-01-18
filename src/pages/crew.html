@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./src/assets/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap" rel="stylesheet">
+    <script type="module" src="../js/index.js"></script>
+    <title>Crew</title>
+  </head>
+  <body class="crew-body">
+    <div  class="wrapper font-sans min-h-screen bg-crew-mobile tablet:bg-crew-tablet desktop:bg-crew-desktop bg-cover bg-center text-white  ">
+      <header class="px-[5vw] z-50 tablet:pr-0 flex items-center justify-between min-h-[7rem] desktop:pt-10">
+        <a href="#" ><img src="../assets/shared/logo.svg" alt=""></a>
+        <hr class="hidden desktop:inline-block text-white/20 z-10 desktop:w-[20rem] big-desktop:w-[35rem] absolute left-[10%]">
+        <nav class="mobile-nav  tablet:hidden">
+          <a class="open-hamburger" href="#"><img src="../assets/shared/icon-hamburger.svg" alt=""></a>
+        </nav>
+        <nav class="opened-mobile-nav hidden absolute right-0 top-0 h-full w-[80%] z-50 bg-white/5 backdrop-blur-xl pt-11 px-[5vw]">
+          <a class="close-hamburger" href="#"><img src="../assets/shared/icon-close.svg" alt="close" class="ml-auto"></a>
+          <div class="links flex flex-col items-start gap-10 mt-20 ml-10 text-[1.5rem]">
+            <a class="pr-3" href="../../index.html">HOME</a>
+            <a class="pr-3" href="./destinations.html">DESTINATION</a>
+            <a class="pr-3 w-[30%] active " href="./crew.html">CREW</a>
+            <a class="pr-3" href="./technology.html">TECHNOLOGY</a>
+
+          </div>
+        </nav>
+        <nav class="tablet-nav hidden tablet:flex items-center h-[7rem] justify-around desktop:justify-start desktop:gap-20 desktop:pl-20 text-paragraph  tracking-wider w-2/3 bg-white/5 backdrop-blur-sm desktop:backdrop-blur-[5px]">
+          <a class="hovered h-full flex items-center active:border-b-white" href="../../index.html"><span class="hidden mr-1 desktop:inline font-bold big-desktop:tracking-[.2em]">00</span> HOME</a>
+          <a class="hovered h-full flex items-center active:border-b-white" href="./destinations.html"><span class="hidden mr-1 desktop:inline font-bold big-desktop:tracking-[.2em]">01</span> DESTINATION</a>
+          <a class="active h-full flex items-center active:border-b-white" href="./crew.html"><span class="hidden mr-1 desktop:inline font-bold big-desktop:tracking-[.2em]">02</span> CREW</a>
+          <a class="hovered h-full flex items-center active:border-b-white" href="./technology.html"><span class="hidden mr-1 desktop:inline font-bold big-desktop:tracking-[.2em]">03</span> TECHNOLOGY</a>
+        </nav>
+      </header>
+      <h1 class="title text-[1.4rem] mb-10 tablet:mt-10 px-[5vw] desktop:px-[10vw]  desktop:text-heading4 font-normal text-center tablet:text-left"><span class="text-white/40 font-bold mr-3">02</span> MEET YOUR CREW</h1>
+         <div class="swiper">
+        <div class="swiper-wrapper ">
+          <div class="swiper-slide flex flex-col tablet:flex-col-reverse desktop:flex-row-reverse text-center desktop:text-left">
+            <div class="img-container tablet:mt-20 mt-auto flex items-end desktop:w-1/2 flex-1">
+              <img class="w-[60%] max-w-[45rem] desktop:min-w-[35rem] mx-auto translate-x-4  block" src="../assets/crew/image-douglas-hurley.png" alt="">
+            </div>
+              <hr class="tablet:hidden text-white/5 border-[1px] w-[85%] mx-auto">
+            <div class="text-container px-[5vw] desktop:px-[10vw] flex flex-col desktop:justify-start desktop:mt-20  tablet:gap-4 flex-1 ">
+              
+              <h3 class="font-serif mt-5 text-white/50 text-heading6 tablet:text-heading5">COMMANDER</h3>
+              <h1 class="font-serif text-heading5 tablet:text-heading4 desktop:text-heading3 mt-3">DOUGLAS HURLEY</h1>
+              <p class="w-[80%] desktop:w-[90%] tablet:text-heading5 mx-auto desktop:mx-0 text-purple">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
+              
+            </div>
+          </div>
+          <div class="swiper-slide flex flex-col mt-[10%] tablet:mt-0 tablet:flex-col-reverse desktop:flex-row-reverse text-center desktop:text-left">
+            <div class="img-container tablet:mt-20 mt-auto flex items-end desktop:w-1/2 flex-1">
+              <img class="w-[45%] max-w-[40rem] desktop:min-w-[25rem] mx-auto translate-x-4  block" src="../assets/crew/image-mark-shuttleworth.png" alt="">
+            </div>
+              <hr class="tablet:hidden text-white/5 border-[1px] w-[85%] mx-auto">
+            <div class="text-container px-[5vw] desktop:px-[10vw] flex flex-col desktop:justify-start desktop:mt-20  tablet:gap-4 flex-1 ">
+             
+              <h3 class="font-serif mt-5 text-white/50 text-heading6 tablet:text-heading5">MISSION SPECIALIST</h3>
+              <h1 class="font-serif text-heading5 tablet:text-heading4 desktop:text-heading3 mt-3">MARK SHUTTLEWORTH</h1>
+              <p class="w-[80%] desktop:w-[90%] tablet:text-heading5 mx-auto desktop:mx-0 text-purple">Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.</p>
+            </div>
+          </div>
+          <div class="swiper-slide flex flex-col mt-[15%] tablet:mt-0  tablet:flex-col-reverse desktop:flex-row-reverse text-center desktop:text-left">
+            <div class="img-container tablet:mt-20 mt-auto flex items-end desktop:w-1/2 flex-1">
+              <img class="w-[50%] max-w-[40rem] desktop:min-w-[30rem] mx-auto translate-x-4  block" src="../assets/crew/image-victor-glover.png" alt="">
+            </div>
+              <hr class="tablet:hidden text-white/5 border-[1px] w-[85%] mx-auto">
+            <div class="text-container px-[5vw] desktop:px-[10vw] flex flex-col desktop:justify-start desktop:mt-20  tablet:gap-4 flex-1 ">
+              
+              <h3 class="font-serif mt-5 text-white/50 text-heading6 tablet:text-heading5">PILOT</h3>
+              <h1 class="font-serif text-heading5 tablet:text-heading4 desktop:text-heading3 mt-3">VICTOR GLOVER</h1>
+              <p class="w-[80%] desktop:w-[90%] tablet:text-heading5 mx-auto desktop:mx-0 text-purple">Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer. </p>
+            </div>
+          </div>
+          <div class="swiper-slide flex flex-col mt-[25%] tablet:mt-0 tablet:flex-col-reverse desktop:flex-row-reverse text-center desktop:text-left">
+            <div class="img-container tablet:mt-20 mt-auto flex items-end desktop:w-1/2 flex-1">
+              <img class="w-[50%] max-w-[40rem] desktop:min-w-[30rem] mx-auto translate-x-4 block" src="../assets/crew/image-anousheh-ansari.png" alt="">
+            </div>
+              <hr class="tablet:hidden text-white/5 border-[1px] w-[85%] mx-auto">
+            <div class="text-container px-[5vw] desktop:px-[10vw] flex flex-col desktop:justify-start desktop:mt-20  tablet:gap-4 flex-1 ">
+              
+              <h3 class="font-serif mt-5 text-white/50 text-heading6 tablet:text-heading5">FLIGHT ENGINEER</h3>
+              <h1 class="font-serif text-heading5 tablet:text-heading4 desktop:text-heading3 mt-3">ANOUSHEH ANSARI</h1>
+              <p class="w-[80%] desktop:w-[90%] tablet:text-heading5 mx-auto desktop:mx-0 text-purple">Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space. </p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>
